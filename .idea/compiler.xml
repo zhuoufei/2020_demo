@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="data_structure" />
+        <module name="mybatis" />
+        <module name="myThread" />
+        <module name="proxy" />
+        <module name="redis" />
+        <module name="spring-security-demo" />
+        <module name="springmvc" />
+        <module name="springsecurity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="data_structure" target="1.5" />
+      <module name="mybatis" target="1.8" />
+      <module name="myThread" target="1.5" />
+      <module name="proxy" target="1.5" />
+      <module name="redis" target="1.8" />
+      <module name="spring-security-demo" target="1.8" />
+      <module name="springmvc" target="1.8" />
+      <module name="springsecurity" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
